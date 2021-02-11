@@ -24,7 +24,7 @@ while not Quit:
                                                   "hinzugefügt "
                                                   "und in die Zwischenablage gepackt.")
             passwords.append(password)
-            r = Tk()
+            r = Tk()#needs to be fixed/replaced
             r.withdraw()
             r.clipboard_clear()
             r.clipboard_append(password)
