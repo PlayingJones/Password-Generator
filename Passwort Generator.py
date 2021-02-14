@@ -6,7 +6,7 @@ passwords = []
 Quit = False
 
 while not Quit:
-    promt = input("Was möchtest du tun? Schreibe neues Passwort, Passwörter anzeigen oder Beenden")
+    promt = input("Was möchtest du tun? Schreibe neues Passwort, Passwörter anzeigen, oder Beenden")
     if promt == "neues Passwort":
         number = input("Wie viele Passwörter möchtest du generieren?")
         number = int(number)
